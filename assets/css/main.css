@@ -2518,6 +2518,33 @@
 				margin-left: 1em;
 			}
 
+	#bannergt {
+	    background-image: url("../../images/gtgdmm.gif");
+	    background-repeat: repeat;
+	    	height: 14em;
+		text-align: center;
+		position: relative;
+	}
+
+		#bannergt header {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background: #212121;
+			background: rgba(27, 27, 27, 0.75);
+			color: #fff;
+			padding: 1.5em 0;
+		}
+
+			#bannergt header h2 {
+				display: inline-block;
+				margin: 0;
+				font-size: 1.25em;
+				vertical-align: middle;
+			}
+
+			
 /* Wrapper */
 
 	.wrapper {
