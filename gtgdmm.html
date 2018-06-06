@@ -138,7 +138,7 @@
 		  <i style="font-size:100px" class="fa fa-calendar" aria-hidden="true"></i>
 		</div>
 		<div class="inner">
-		  <h3>Quand?</h3>
+		  <h3>Quand ?</h3>
 		  <p>La journée du GT aura lieu le 20 juin 2018. Elle précède les <a href="index.html">JIG</a>.</p>
 		</div>
 	      </div>
@@ -147,12 +147,12 @@
 	      <div class="box post">
 		<!--<a href="#" class="image left">-->
 		<div class="image left">
-		  <i style="font-size:100px" class="fa fa-map-o" aria-hidden="true"></i>
+		  <i style="font-size:100px" class="far fa-map" aria-hidden="true"></i>
 		</div>
                 <!--</a>-->
 		<div class="inner">
-		  <h3>Lieu</h3>
-		  <p>Campus La Doua, Villeurbanne.</p>
+		  <h3>Où ?</h3>
+		  <p><a href="https://www.google.fr/maps/place/B%C3%A2timent+Charles+Darwin/@45.7816387,4.8643477,14z/data=!4m5!3m4!1s0x47f4ea98627c1a95:0x31749c0d2bde8e5c!8m2!3d45.7807521!4d4.8672445">Bâtiment Darwin D</a>, Salle Fontan&egrave;s,<br />Campus de l'Université Lyon1, La Doua,<br />23-25 Avenue Pierre de Coubertin,<br /> 69 622 Villeurbanne.</p>
 		</div>
 	      </div>
 	    </section>
@@ -170,8 +170,11 @@
 		  <ul>
                     <li> <a href="https://perso.esiee.fr/~coustyj/">Jean Cousty</a> (ESIEE Paris, LIGM) </li>
                     <li> <a href="http://antoine-vacavant.iut-lepuy.fr/">Antoine Vacavant</a> (UCA, Institut Pascal) </li>
-          </ul>
-          (détails à venir)
+          </ul><!--
+		   <i class="fas
+                            fa-hand-point-right"
+                     style="color:#37c0fb;"></i> <a href="#prg">Programme détaillé.</a> <i class="fas fa-hand-point-left" style="color:#37c0fb;"></i>
+-->
                 </div>
               </div>
 	    </section>
@@ -200,10 +203,18 @@
 		<!--</a>-->
 		<div class="inner">
 		  <h3>Programme scientifique</h3>
+		  <ul>
+		    <li> Orateur invité : <a href="http://antoine-vacavant.iut-lepuy.fr/">Antoine Vacavant</a></li>
+		    <li> Milena/Pylene <li>
+		    <li> Présentations de doctorants (1/2) </li>
+		    <li> Orateur invité : <a href="https://perso.esiee.fr/~coustyj/">Jean Cousty</a> </li>
+		    <li> DGtal </li>
+		    <li> Discussions GT </li>
+		    <li> Présentations de doctorants (2/2) </li>
+		  </ul>
 		   <i class="fas
                             fa-hand-point-right"
-                     style="color:#37c0fb;"></i> <a href="#prg">Programme scientifique
-                    et résumés.</a> <i class="fas fa-hand-point-left" style="color:#37c0fb;"></i>
+                     style="color:#37c0fb;"></i> <a href="#prg">Programme détaillé.</a> <i class="fas fa-hand-point-left" style="color:#37c0fb;"></i>
 		</div>
 	      </div>
 	    </section>
@@ -283,49 +294,56 @@
       <section class="wrapper style1">
         <div class="container">
           <header class="major">
-            <h2><a name="prg"></a>Programme scientifique  (mercredi 20 juin)</h2>
-
-            (en construction)
+            <h2 id="prg">Programme scientifique du mercredi 20 juin</h2>
 
             <table>
-              <tr  style="border:1px solid">
+              <tr  style="border:2px solid;color:white;background-color:#474747">
                 <td>9h30</td><td>Accueil </td>
               </tr>
               <tr  style="border:1px solid">
-                <td>10h</td><td>Orateur invité : Antoine Vacavant</td>
+                <td>10h</td><td style="font-weight:bold"><a href="#vacavant">Antoine Vacavant, orateur invité</a></td>
               </tr>
                 <tr  style="border:1px solid">
-                <td>11h</td><td>Milena/Pylene</td>
+                <td>11h</td><td>Edwin Carlinet et Thierry Géraud, Bibliothèque en C++ moderne pour le traitement d'images générique et performant</td>
               </tr>
               <tr  style="border:1px solid">
-                <td>11h30</td><td> Présentations de doctorants (1/2)</td>
+                <td>11h30</td><td> Présentations de doctorants (1/2) :
+		  <ul>
+		    <li>Deise Santana Maia, Characterizations of hierarchical watersheds</li>
+		    <li>Pierre Cettour-Janet, Segmentation du cervelet du prématuré par arbre binaire de partition</li>
+		    <li>Hawa Mohamed Ali, Approches topologiques digitales pour l'analyse d'images biomédicales hépatiques </li>
+		    <li>Wassim Rharbaoui, Calcul de l'homologie durant un processus de construction incrémental</li>
+		      <!--: etude de complexite pour l’operation de fusion de cellules dans des objets subdivises en cellules cubiques-->
+		  </ul>
+		</td>
               </tr>
-            </table>
-            <table>
-              <tr  style="border:1px solid"><td></td><td></td></tr>
-              <tr  style="border:1px solid">
-                <td>12h30</td><td> Repas</td>
-              </tr>
-              <tr  style="border:1px solid"><td></td><td></td></tr>
-            </table>
-            <table>
-              <tr  style="border:1px solid"></tr>
-              <tr  style="border:1px solid">
-                <td>14h00</td><td>Orateur invité : Jean Cousty</td>
+              <tr  style="border:2px solid;color:white;background-color:#474747">
+                <td>12h30</td><td> Repas </td>
               </tr>
               <tr  style="border:1px solid">
-                <td>15h00</td><td> DGtal</td>
+                <td>14h00</td><td style="font-weight:bold"><a href="#cousty">Jean Cousty, orateur invité</a></td>
+              </tr>
+              <tr  style="border:1px solid">
+                <td>15h00</td><td> Nouveautés de DGtal</td>
               </tr>
                <tr  style="border:1px solid">
                 <td>15h15</td><td> Discussions GT</td>
               </tr>
-              <tr  style="border:1px solid">
+              <tr  style="border:2px solid;color:white;background-color:#474747">
                 <td>15h30</td><td> Pause</td>
               </tr>
               <tr  style="border:1px solid">
-                <td>16h00</td><td>Présentations de doctorants (2/2)</td>
+                <td>16h00</td><td>Présentations de doctorants (2/2) :
+		  <ul>
+		    <li>Daniel Antunes, Curvature Regularization with Digital Estimators</li>
+		    <li>Thomas Caissard, Opérateur laplacien sur les surfaces digitales </li>
+		    <li>Loïc Crombez, Peeling digital potatoes</li>
+		    <li>Lydie Richaume, Dépliement de polycubes : tours de Manhattan à base H-convexe </li>
+		    <li>Amira Filali, 3D data representation based on tree-structured lattice vector quantization of point clouds</li>
+		  </ul>
+		</td>
               </tr>
-              <tr  style="border:1px solid">
+              <tr  style="border:2px solid;color:white;background-color:#474747">
                 <td>17h30</td><td> Fin</td>
               </tr>
 
@@ -342,7 +360,7 @@
 
           <table>
             <tr>
-              <td><img src="images/antoine.png" style="border-radius:
+              <td id="vacavant"><img src="images/antoine.png" style="border-radius:
                                                       361px;" width=280px>
                 <br>Antoine Vacavant  (UCA, Institut Pascal)  </td>
               <td style="align:left;">
@@ -357,7 +375,7 @@
   terminera par la proposition d’axes de recherche novateurs sur la robustesse des algorithmes de traitement d’images, orientés vers des applications biomédicales.
             </td></tr>
             <tr>
-              <td><img src="images/JeanCousty.jpg" style="border-radius:
+              <td id="cousty"><img src="images/JeanCousty.jpg" style="border-radius:
                                                       361px;">
                 <br>Jean Cousty  (ESIEE Paris, LIGM)   </td>
               <td style="align:left;">
